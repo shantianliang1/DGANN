@@ -1,0 +1,10 @@
+when using our code , you need read this txt
+
+1. using images_move.py , move training images from mini-imagenet/cifar-fs into new floder
+
+2. using first_augmentations.py , so you can get a new set of training images
+
+3. using csv_aug.py to extend the train.csv
+
+4. move all images back . so you will finish the first image generation
+

@@ -18,12 +18,14 @@ Our algorithm first uses image data to process the dataset, which can be found i
 ## Dataset
 ### Download the dataset
 create the dataset file and copy it inside dataset directory:
+```
 .
 ├── ...
-└── datasets                                
-    └── mini_imagenet
-        └── test.csv
-        └── test.csv
+└── datasets
+    └── compressed
+        └── mini_imagenet
+            └── images.zip
+```
     
         
 for your convenience, youcan download the datasets diretly from links on the lieft

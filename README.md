@@ -5,10 +5,10 @@ datasets, miniImageNet and CIFAR-FS, demonstrate that DGANN significantly outper
 
 ## Requirements
 CUDA Version：11.6
-
 Python：3.8.19
-
-    pip install -r requirements.txt
+```
+pip install -r requirements.txt
+```
 
 
 ## Key algorithms

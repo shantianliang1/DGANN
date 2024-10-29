@@ -17,14 +17,44 @@ Our algorithm first uses image data to process the dataset, which can be found i
 
 ## Dataset
 ### Download the dataset
-create the dataset file and copy it inside dataset directory:
 ```
-.
-├── ...
-└── datasets
-    └── compressed
-        └── mini_imagenet
-            └── images.zip
+├── mini-imagenet
+    ├── test.csv
+    ├── train.csv
+    ├── val.csv
+    ├── images
+        ├── n0153292900000006.jpg
+        ├── ...
+        ├── n1313361300001299.jpg
+├── cifar-fs
+    ├── data
+        ├── apple
+            ├── apple_s_000022.png
+            ├── ...
+        ├── ...
+        ├── worm
+            ├── ascaris_lumbricoides_s_000016.png
+            ├── ...
+    ├── splits
+        ├── bertinetto
+            ├── test.txt
+            ├── train.txt
+            ├── val.txt
+```
+Firstly, obtain the image data in the above format, classify the images according to the `CSV file/txt` file, then generate data for the train image data, and generate a new pickle file through/Data Augmentation/PickleTestpy. Finally, perform directory classification in the following format:
+
+```
+├── dataset
+    ├── mini-imagenet
+        ├── compacted_datasets
+            ├── mini_imagenet_test.pickle   
+            ├── mini_imagenet_train.pickle  
+            ├── mini_imagenet_val.pickle
+    ├── cifar-fs
+        ├── compacted_datasets
+            ├── cifar-fs_tes.pickle
+            ├── cifar-fs_train.pickle
+            ├── cifar-fs_val.pickle
 ```
     
         

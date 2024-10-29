@@ -41,7 +41,7 @@ Our algorithm first uses image data to process the dataset, which can be found i
             ├── train.txt
             ├── val.txt
 ```
-Firstly, obtain the image data in the above format, classify the images according to the `CSV file/txt` file, then generate data for the train image data, and generate a new pickle file through/Data Augmentation/PickleTestpy. Finally, perform directory classification in the following format:
+Firstly, obtain the image data in the above format, classify the images according to the `CSV file/txt` file, then generate data for the train image data, and generate a new pickle file through `/DataAugmentation/pickleTest.py`. Finally, perform directory classification in the following format:
 
 ```
 ├── dataset

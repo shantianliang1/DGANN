@@ -11,11 +11,22 @@ Python：3.8.19
     pip install -r requirements.txt
 
 
-## key algorithms
+## Key algorithms
 Our algorithm first uses image data to process the dataset, which can be found in the `DataAugmentation` folder. Then, it performs image classification tasks and simultaneously enhances data features, which can be found in the `DataAugmentation`, `DatasetChoose` folders, and `train.py` . Our model is located in the Model folder and includes the backbone and GNN-model.
 
 
-
+## Dataset
+### Download the dataset
+create the dataset file and copy it inside dataset directory:
+.
+├── ...
+└── datasets                                
+    └── mini_imagenet
+        └── test.csv
+        └── test.csv
+    
+        
+for your convenience, youcan download the datasets diretly from links on the lieft
 1. please download the dataset miniImageNet/cifar-fs like the form of （train/val/test// CSV.）
 2. please begin the first data generation
 3. train

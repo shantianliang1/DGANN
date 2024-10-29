@@ -57,8 +57,18 @@ Firstly, obtain the image data in the above format, classify the images accordin
             ├── cifar-fs_val.pickle
 ```
     
-        
-for your convenience, youcan download the datasets diretly from links on the lieft
-1. please download the dataset miniImageNet/cifar-fs like the form of （train/val/test// CSV.）
-2. please begin the first data generation
-3. train
+## Train
+`argSettings.py`  is a list of parameters during training, which you need to review carefully and set the corresponding options according to the training you need.
+
+## Eval
+Evaluate the trained model by using `eval.py `
+
+## Result
+### checkpoints directory is：
+`./asset/checkpoints`
+### logs directory is：
+`./asset/logs`
+
+You can use TensorBoard to see detailed training trends
+
+

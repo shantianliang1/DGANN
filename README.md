@@ -4,9 +4,9 @@ Few-Shot Learning (FSL) aims to effectively predict unlabelled data using only a
 datasets, miniImageNet and CIFAR-FS, demonstrate that DGANN significantly outperforms traditional FSL methods and GNN-based approaches, achieving up to 14% and 63% improvements in classification accuracy for 5-way 1-shot and 10-way 5-shot tasks, respectively. The proposed DGANN model exhibits higher accuracy and better generalization ability, especially when dealing with small-size image datasets, underscoring its potential for applications in image classification and related fields.
 
 ## Requirements
-CUDA Version：11.6
-Python：3.8.19
-``` pip install -r requirements.txt ```
+    CUDA Version：11.6
+    Python：3.8.19
+    ``` pip install -r requirements.txt ```
 
 
 ## key algorithms

@@ -71,4 +71,9 @@ Evaluate the trained model by using `eval.py `
 
 You can use TensorBoard to see detailed training trends
 
-
+## Citation
+@article{Ying2025Gnn,
+title={Enhanced Few-Shot Image Classification via Double-Ended Graph Augmentation Neural Networks},
+author={Qiguang Zhu, Xiaotian Ying, Xi Lv, Weidong Chen},
+journal={The Visual Computer}
+}

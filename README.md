@@ -1,7 +1,6 @@
 # Enhanced Few-Shot Image Classification via Double-Ended Graph Augmentation Neural Networks
 ## Abastract
-Few-Shot Learning (FSL) aims to effectively predict unlabelled data using only a limited number of labelled samples. This paper addresses the challenges of existing FSL methods, particularly meta-learning-based approaches prone to overfitting and Graph Neural Network (GNN)-based methods that struggle to fully utilize image data. To overcome these limitations, we propose a novel GNN model, the Double-Ended Graph Augmentation Neural Network (DGANN). The DGANN model introducesa double-ended augmentation module to enhance the diversity and expressiveness of image features. This is achieved through front-end image generation and back-end image augmentation techniques. Furthermore, a hierarchical inference module is designed to infer node features and obtain enhanced data sample features, improving image classification accuracy. Experimental results on benchmark
-datasets, miniImageNet and CIFAR-FS, demonstrate that DGANN significantly outperforms traditional FSL methods and GNN-based approaches, achieving up to 14% and 63% improvements in classification accuracy for 5-way 1-shot and 10-way 5-shot tasks, respectively. The proposed DGANN model exhibits higher accuracy and better generalization ability, especially when dealing with small-size image datasets, underscoring its potential for applications in image classification and related fields.
+To address the overfitting issue commonly encountered in meta-learning-based Few-Shot Learning (FSL) methods and the inability of Graph Neural Network (GNN)-based FSL methods to fully utilize image data, this paper proposes a GNN model based on a Double-Ended Graph Augmentation Neural Network (DGANN). First, a dual-end augmentation module is designed to enhance the model's ability to extract features and process graph data. Then, a graph reasoning module is introduced, where the enhanced sample features are obtained through the ENC module, and node features are reasoned using the SubSample and UpSample modules. These features are further processed with residual connections through the ResMLP architecture, improving image classification accuracy. The model is evaluated on the miniImageNet and CIFAR-FS benchmark datasets using 5-way 1-shot, 5-way 5-shot, and 10-way 5-shot classification tasks, as well as on the CUB200 dataset with 5-way 1-shot and 5-way 5-shot classification tasks. Additionally, the convergence speed of the ResMLP architecture is analyzed. For the miniImageNet dataset, classification accuracy increased by 4.5%, 2%, and 14% for the three tasks, respectively. For the CIFAR-FS dataset, DGANN achieved better classification performance on small-sized images compared to traditional GNN models, improving 5-way 1-shot and 5-way 5-shot classification accuracy by 1.1% and 2%, respectively, and achieving 63% accuracy in the 10-way 5-shot task. On the CUB200 dataset, the classification accuracy reached 75.86% and 89.40%, with a 1% improvement when combined with ResMLP, and the convergence speed was accelerated by approximately four times. Experimental results demonstrate that the DGANN model, which incorporates image augmentation techniques, shows higher accuracy and better generalization performance in traditional classification tasks.
 
 ## Requirements
 CUDA Version：11.6
@@ -74,8 +73,8 @@ You can use TensorBoard to see detailed training trends
 ## Citation
 ```
 @article{Ying2025Gnn,
-title={Enhanced Few-Shot Image Classification via Double-Ended Graph Augmentation Neural Networks},
+title={Few shot Learning Image Classification Based on Double-ended Graph Augmentation Neural Networks},
 author={Qiguang Zhu, Xiaotian Ying, Xi Lv, Weidong Chen},
-journal={The Visual Computer}
+journal={Computer Vision and Image Understanding}
 }
 ```

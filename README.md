@@ -74,7 +74,7 @@ You can use TensorBoard to see detailed training trends
 ```
 @article{Ying2025Gnn,
 title={Few shot Learning Image Classification Based on Double-ended Graph Augmentation Neural Networks},
-author={Qiguang Zhu, Xiaotian Ying, Xi Lv, Weidong Chen},
+author={Qiguang Zhu, Xiaotian Ying, Yanying Zhu, Weidong Chen},
 journal={Computer Vision and Image Understanding}
 }
 ```
